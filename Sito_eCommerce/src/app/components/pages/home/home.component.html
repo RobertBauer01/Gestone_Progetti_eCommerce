@@ -1,0 +1,10 @@
+<ul>
+    <Li *ngFor="let bicicletta of biciclette">
+        <a routerLink="/bicicletta/{{bicicletta.id}}">
+            <img [src] = "bicicletta.image" [alt] = "bicicletta.name"/>
+            <div class="name">
+                {{bicicletta.name}}
+            </div>
+        </a>
+    </Li>
+</ul>
