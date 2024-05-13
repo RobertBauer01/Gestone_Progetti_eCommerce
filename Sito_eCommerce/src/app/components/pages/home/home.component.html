@@ -5,6 +5,25 @@
             <div class="name">
                 {{bicicletta.name}}
             </div>
+            <div class="type">
+                Type: {{bicicletta.type}}
+            </div>
+            <div class="brand">
+                Brand: {{bicicletta.brand}}
+            </div>
+            <span class="favourite {{bicicletta.favourite?'':'not'}}">
+                ❤
+              </span>
+            <div class="price">
+                <span>
+                {{bicicletta.price | currency:'EUR' }}
+                </span>
+            </div>
+            <div class="description">
+                <span>
+                    {{bicicletta.desc}}
+                </span>
+            </div>
         </a>
     </Li>
 </ul>
