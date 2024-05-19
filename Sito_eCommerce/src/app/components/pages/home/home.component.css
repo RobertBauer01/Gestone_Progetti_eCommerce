@@ -33,7 +33,7 @@ ul{
     margin-top: 0.3rem;
     padding: 0.5rem 1rem;
     position: relative;
-    height: 7rem;
+    height: 10rem;
   }
   
   .favorite{
@@ -59,4 +59,5 @@ ul{
     color: #414141;
     font-size: 1.1rem;
 }
+
 
