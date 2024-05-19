@@ -69,7 +69,7 @@ export const sample_bici: Bicicletta[] = [
         image: 'assets/images/cBike4.jpg',
         desc: 'A sleek and comfortable city bike for daily commuting.',
         price: 299,
-        favourite: true
+        favourite: false
     },
     {
         id: '8',
@@ -89,7 +89,7 @@ export const sample_bici: Bicicletta[] = [
         image: 'assets/images/eBike2.jpg',
         desc: 'A powerful e-bike with a 500W motor for all terrains.',
         price: 1599,
-        favourite: true
+        favourite: false
     },
     {
         id: '10',
@@ -119,7 +119,7 @@ export const sample_bici: Bicicletta[] = [
         image: 'assets/images/tBike2.jpg',
         desc: 'A durable touring bike for all types of terrain.',
         price: 899,
-        favourite: true
+        favourite: false
     },
     {
         id: '13',
@@ -139,7 +139,7 @@ export const sample_bici: Bicicletta[] = [
         image: 'assets/images/tBike4.jpg',
         desc: 'A versatile touring bike with multiple gear options.',
         price: 849,
-        favourite: true
+        favourite: false
     },
     {
         id: '15',
@@ -159,7 +159,7 @@ export const sample_bici: Bicicletta[] = [
         image: 'assets/images/gBike3.jpg',
         desc: 'A robust cargo bike with a large carrying capacity.',
         price: 1199,
-        favourite: true
+        favourite: false
     },
     {
         id: '17',
@@ -189,6 +189,16 @@ export const sample_bici: Bicicletta[] = [
         image: 'assets/images/xBike2.jpg',
         desc: 'A lightweight BMX bike for freestyle riding.',
         price: 899,
+        favourite: false
+    },
+    {
+        id: '20',
+        name: 'Aha-Funny',
+        type: 'Monocycle',
+        brand: 'Monsters INC',
+        image: 'assets/images/oBike1.jpg',
+        desc: 'A lightweight BMX bike for freestyle riding.',
+        price: 99,
         favourite: false
     }
 ];
